@@ -1,0 +1,64 @@
+#about {
+  background-color: #fafafa;
+}
+#box {
+  border: 1px solid gray;
+  height: 140px;
+  width: 140px;
+  border-radius: 20%;
+  margin:20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fafcf9;
+}
+button{
+  font-size: 20px; padding: 10px 30px !important;
+}
+label{
+  font-size: 30px;
+
+}
+i{
+  font-size: 30px;
+}
+#box:hover {
+  background-color: white;
+}
+p{
+  font-size: 22px;
+}
+a{
+  font-size: 20px;
+}
+
+#navbarimp {
+  margin-bottom: 50px !important;
+  padding-top: 70px;
+}
+.parallex {
+  background: url("../images/pexels-roberto-shumski-1903702.jpg") no-repeat
+    center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 60vh;
+  padding-top: 20px;
+}
+.cardd{
+    width: 22rem;
+    margin:auto
+}
+@media only screen and (max-width: 480px) {
+  #hide {
+    display: none;
+  }
+  .parallex {
+    height: 500px;
+  }
+  #box {
+    height: 80px;
+    width: 80px;
+  }
+  .cardd{
+    width: 18rem;
+    margin:auto
+   }
+}
